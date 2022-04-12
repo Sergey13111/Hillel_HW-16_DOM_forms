@@ -1,0 +1,45 @@
+body {
+    background-color: #000000b5;
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+.error {
+    border-color: red;
+}
+
+.error-message {
+    margin-top: 20px;
+    color: red;
+    font-size: 20px;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.text-message {
+    color: #b0d014;
+}
+
+button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: #d8bfd8;
+    background-color: #232032;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(13, 42, 47);
+    color: rgb(240, 248, 255);
+}
